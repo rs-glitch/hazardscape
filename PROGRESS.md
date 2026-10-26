@@ -1,0 +1,64 @@
+# Progress
+
+- **2026-10-20 · CA Fire Years:**
+  - Built the pipeline for 7 fires and the statewide view. The validation gates and the headless self-test pass.
+  - Fixed:
+    - VEDA API pages capped near 3 MB (page size set to 40).
+    - Overpass overloaded, so roads and towns moved to Census TIGER.
+    - PIL edge inflation, replaced with an exact scanline fill.
+    - Invalid WFIGS polygons, now run through `make_valid`.
+    - Spherical-Mercator area, now with an ellipsoid factor.
+    - Terrarium bathymetry, clamped at 0 m.
+- **2026-10-20 · Hazard Replays:**
+  - The app became Hazard Replays, with hazard categories.
+  - Added tabs:
+    - **Earthquakes:** Ridgecrest 2019, with USGS ShakeMap MMI and 5,151 aftershocks at depth.
+    - **Drought:** USDM weekly maps for 2020–23 and USGS reservoirs.
+    - **Hurricanes:** Helene 2024.
+    - **Floods:** Helene in western NC.
+  - Each tab was data-audited before release (`docs/reviews/audit_*.md`).
+- **2026-10-20 · Ridgecrest actionable layers:**
+  - A warning-time what-if.
+  - The Reasenberg-Jones aftershock clock.
+  - GNSS arrows and the rupture outline.
+- **2026-10-21 · Detail pass:**
+  - New drought layers: wells, a soil-water bucket model and GRACE.
+  - Earthquake fixes from the actionable audit.
+  - Key-moment chips, "what it teaches" cards and scene captions.
+  - A D3/D4 chart and gauge-gap notes.
+  - Gates: data review SHIP (round 2), code and UX review SHIP. Independent stress and engagement reviews are in `docs/reviews/`.
+- **2026-10-21 · v6 visual pass on Drought and Floods:**
+  - Each tab has its own sky, fog and light, an opening camera move and an in-scene legend.
+  - Drought:
+    - A softened USDM ramp.
+    - Vegetation that drains to straw.
+    - A crack texture from D2–D3.
+    - Reservoir basins with bathtub rings.
+  - Floods:
+    - River ribbons coloured by gauge stage.
+    - Flow glints.
+    - Gauge pins with sparklines.
+- **2026-10-21 · v7, Phase 2 data layers (`pipeline/build_phase2.py`):**
+  - SNOTEL snowpack against the NRCS median.
+  - ERA5 weekly rain.
+  - Six reservoirs against their 1991–2020 average for the date.
+  - MRMS hourly radar rain, using an in-house GRIB2 PNG decoder.
+  - The USGS Helene landslide inventory (1,402 points).
+  - ERA5-Land soil moisture.
+  - Art, VFX and UX gates passed with fixes, which were applied.
+- **2026-10-26 · Repo:** cleaned and organised into this repository.
+  - The reviews moved to `docs/reviews/`.
+  - A doctype was added to `web/index.html`.
+  - Line endings were normalised.
+  - `selftest.py` now finds Chrome on macOS, Windows or Linux, or uses `CHROME=`.
+
+## Backlog
+
+- Split the four "scaled" two-series charts into small multiples.
+- Add leader lines to the reservoir cards.
+- Render bloom at half resolution on phones.
+- Measure fps on a real device; nothing has been tested on a real iPhone yet.
+- Phone layout: one chip row, with the slider over the scene.
+- Guess-then-reveal, timed captions, and a Hurricane opening that shows one layer.
+- The Dixie data is about 4 MB, over the 3 MB budget.
+- A fit-to-bounds camera, because wide fires crop on narrow phones.

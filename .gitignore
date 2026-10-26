@@ -1,0 +1,10 @@
+data/raw/
+data/selftest/
+data/scratch/
+data/*.log
+web/_phone.html
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+node_modules/

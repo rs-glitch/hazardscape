@@ -1,0 +1,833 @@
+{
+ "fires": {
+  "august": {
+   "final_km2": 4211.87,
+   "final_acres": 1040774,
+   "official_parts": {
+    "Pine Kop": 1222,
+    "Willow Basin": 1219,
+    "Corbin": 6061,
+    "Elkhorn": 51577,
+    "Glade": 26197,
+    "Doe": 589835,
+    "Hopkins": 328363,
+    "Hull": 12284,
+    "Tatham": 14458,
+    "Knee Cap": 781
+   },
+   "official_gis_acres": 1031997,
+   "official_raster_acres": 1040774,
+   "raw_satellite_acres": 1113522,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.009,
+   "calfire_acres": 1032648.0,
+   "detect_minus_arrival_h_median": 5.7,
+   "share_detected_before_arrival": 0.205,
+   "viirs_vs_feds_iou_final": 0.996,
+   "viirs_vs_feds_iou_mid": 0.972,
+   "viirs_vs_feds_area_r": 0.998,
+   "feds_minus_viirs_h_shift0": -9.4,
+   "feds_minus_viirs_h_shift12": 2.6,
+   "albers_acres": 1032344,
+   "extent_ratio": 1.0082,
+   "calfire_published_acres": 1032648.0,
+   "gate_extent_2pct": true,
+   "gate_feds_timing": true,
+   "gate_timing": true,
+   "sanity": {
+    "steps": 110,
+    "hotspots": 125345,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "creek": {
+   "final_km2": 1550.07,
+   "final_acres": 383030,
+   "official_parts": {
+    "Creek": 379802
+   },
+   "official_gis_acres": 379802,
+   "official_raster_acres": 383029,
+   "raw_satellite_acres": 437553,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.016,
+   "calfire_acres": 379895.0,
+   "detect_minus_arrival_h_median": 16.9,
+   "share_detected_before_arrival": 0.118,
+   "viirs_vs_feds_iou_final": 0.991,
+   "viirs_vs_feds_iou_mid": 0.928,
+   "viirs_vs_feds_area_r": 0.998,
+   "feds_minus_viirs_h_shift0": -8.9,
+   "feds_minus_viirs_h_shift12": 3.0,
+   "albers_acres": 379883,
+   "extent_ratio": 1.0083,
+   "calfire_published_acres": 379895.0,
+   "gate_extent_2pct": true,
+   "gate_feds_timing": true,
+   "gate_timing": true,
+   "sanity": {
+    "steps": 121,
+    "hotspots": 76458,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "dixie": {
+   "final_km2": 3939.63,
+   "final_acres": 973502,
+   "official_parts": {
+    "Fly": 5088,
+    "Dixie": 963309
+   },
+   "official_gis_acres": 968397,
+   "official_raster_acres": 973502,
+   "raw_satellite_acres": 1039293,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.028,
+   "calfire_acres": 963309.0,
+   "detect_minus_arrival_h_median": 5.4,
+   "share_detected_before_arrival": 0.184,
+   "viirs_vs_feds_iou_final": 0.989,
+   "viirs_vs_feds_iou_mid": 0.962,
+   "viirs_vs_feds_area_r": 1.0,
+   "feds_minus_viirs_h_shift0": -9.7,
+   "feds_minus_viirs_h_shift12": 2.3,
+   "albers_acres": 963406,
+   "extent_ratio": 1.0105,
+   "calfire_published_acres": 963309.0,
+   "gate_extent_2pct": true,
+   "gate_feds_timing": true,
+   "gate_timing": true,
+   "sanity": {
+    "steps": 118,
+    "hotspots": 120208,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "caldor": {
+   "final_km2": 903.2,
+   "final_acres": 223185,
+   "official_parts": {
+    "Caldor": 221784
+   },
+   "official_gis_acres": 221784,
+   "official_raster_acres": 223186,
+   "raw_satellite_acres": 247929,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.001,
+   "calfire_acres": 221835.0,
+   "detect_minus_arrival_h_median": 16.8,
+   "share_detected_before_arrival": 0.067,
+   "viirs_vs_feds_iou_final": 0.999,
+   "viirs_vs_feds_iou_mid": 0.96,
+   "viirs_vs_feds_area_r": 1.0,
+   "feds_minus_viirs_h_shift0": -10.2,
+   "feds_minus_viirs_h_shift12": 1.7,
+   "albers_acres": 221786,
+   "extent_ratio": 1.0063,
+   "calfire_published_acres": 221835.0,
+   "gate_extent_2pct": true,
+   "gate_feds_timing": true,
+   "gate_timing": true,
+   "sanity": {
+    "steps": 76,
+    "hotspots": 37994,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "park": {
+   "final_km2": 1746.44,
+   "final_acres": 431554,
+   "official_parts": {
+    "Park": 429603
+   },
+   "official_gis_acres": 429603,
+   "official_raster_acres": 431553,
+   "raw_satellite_acres": 394512,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.15,
+   "calfire_acres": 429603.0,
+   "detect_minus_arrival_h_median": 4.8,
+   "share_detected_before_arrival": 0.204,
+   "albers_acres": 429603,
+   "extent_ratio": 1.0045,
+   "calfire_published_acres": 429603.0,
+   "gate_extent_2pct": true,
+   "vs_nifc_daily": {
+    "n": 68,
+    "median_abs_diff": 0.010499999999999999,
+    "rows": [
+     {
+      "t": "2024-07-25T19:30:04+00:00",
+      "official": 71489,
+      "ours": 85118,
+      "diff": 0.191,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-26T04:45:00+00:00",
+      "official": 124948,
+      "ours": 130905,
+      "diff": 0.048,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-07-26T17:20:25+00:00",
+      "official": 164282,
+      "ours": 182945,
+      "diff": 0.114,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-07-26T20:17:56+00:00",
+      "official": 178090,
+      "ours": 189121,
+      "diff": 0.062,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-27T02:45:42+00:00",
+      "official": 239153,
+      "ours": 222683,
+      "diff": -0.069,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-27T08:32:01+00:00",
+      "official": 307370,
+      "ours": 276683,
+      "diff": -0.1,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-27T19:43:45+00:00",
+      "official": 348370,
+      "ours": 316123,
+      "diff": -0.093,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-27T23:30:10+00:00",
+      "official": 350012,
+      "ours": 319545,
+      "diff": -0.087,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-28T03:32:26+00:00",
+      "official": 353194,
+      "ours": 322877,
+      "diff": -0.086,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-28T20:33:35+00:00",
+      "official": 357341,
+      "ours": 330456,
+      "diff": -0.075,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-29T19:23:22+00:00",
+      "official": 370237,
+      "ours": 368936,
+      "diff": -0.004,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-30T18:34:21+00:00",
+      "official": 385065,
+      "ours": 393886,
+      "diff": 0.023,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-30T20:14:50+00:00",
+      "official": 385065,
+      "ours": 394267,
+      "diff": 0.024,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-31T01:39:15+00:00",
+      "official": 386764,
+      "ours": 395447,
+      "diff": 0.022,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-31T02:29:12+00:00",
+      "official": 386764,
+      "ours": 395611,
+      "diff": 0.023,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-07-31T16:20:51+00:00",
+      "official": 390006,
+      "ours": 397626,
+      "diff": 0.02,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-07-31T19:32:06+00:00",
+      "official": 390613,
+      "ours": 397729,
+      "diff": 0.018,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-01T00:09:00+00:00",
+      "official": 391200,
+      "ours": 397892,
+      "diff": 0.017,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-01T02:11:52+00:00",
+      "official": 391200,
+      "ours": 398137,
+      "diff": 0.018,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-01T03:26:01+00:00",
+      "official": 391200,
+      "ours": 398286,
+      "diff": 0.018,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-01T20:07:36+00:00",
+      "official": 391200,
+      "ours": 399733,
+      "diff": 0.022,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-02T02:41:20+00:00",
+      "official": 393815,
+      "ours": 400914,
+      "diff": 0.018,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-02T15:40:21+00:00",
+      "official": 397631,
+      "ours": 404313,
+      "diff": 0.017,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-02T21:17:02+00:00",
+      "official": 399615,
+      "ours": 404313,
+      "diff": 0.012,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-03T03:44:16+00:00",
+      "official": 399546,
+      "ours": 404313,
+      "diff": 0.012,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-03T14:22:17+00:00",
+      "official": 400967,
+      "ours": 404313,
+      "diff": 0.008,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-03T19:13:33+00:00",
+      "official": 401199,
+      "ours": 404313,
+      "diff": 0.008,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-04T02:18:00+00:00",
+      "official": 401199,
+      "ours": 404343,
+      "diff": 0.008,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-04T17:44:35+00:00",
+      "official": 401199,
+      "ours": 404725,
+      "diff": 0.009,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-04T20:00:48+00:00",
+      "official": 401199,
+      "ours": 404828,
+      "diff": 0.009,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T01:22:32+00:00",
+      "official": 401400,
+      "ours": 405110,
+      "diff": 0.009,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T02:36:38+00:00",
+      "official": 401508,
+      "ours": 405201,
+      "diff": 0.009,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T04:39:16+00:00",
+      "official": 401510,
+      "ours": 405353,
+      "diff": 0.01,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T12:29:13+00:00",
+      "official": 401510,
+      "ours": 406033,
+      "diff": 0.011,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T18:28:45+00:00",
+      "official": 402042,
+      "ours": 407702,
+      "diff": 0.014,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-05T23:06:06+00:00",
+      "official": 402042,
+      "ours": 408990,
+      "diff": 0.017,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-06T01:41:05+00:00",
+      "official": 406559,
+      "ours": 411030,
+      "diff": 0.011,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-06T12:10:40+00:00",
+      "official": 414043,
+      "ours": 422040,
+      "diff": 0.019,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-06T19:15:23+00:00",
+      "official": 414890,
+      "ours": 424204,
+      "diff": 0.022,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-07T02:31:26+00:00",
+      "official": 419796,
+      "ours": 426256,
+      "diff": 0.015,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-07T15:01:02+00:00",
+      "official": 424560,
+      "ours": 428905,
+      "diff": 0.01,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-07T15:41:46+00:00",
+      "official": 424560,
+      "ours": 428991,
+      "diff": 0.01,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-07T22:03:16+00:00",
+      "official": 422925,
+      "ours": 429803,
+      "diff": 0.016,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-08T13:11:02+00:00",
+      "official": 426534,
+      "ours": 431209,
+      "diff": 0.011,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-08T15:54:41+00:00",
+      "official": 426534,
+      "ours": 431278,
+      "diff": 0.011,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-08T18:58:59+00:00",
+      "official": 427067,
+      "ours": 431357,
+      "diff": 0.01,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-09T02:54:14+00:00",
+      "official": 428194,
+      "ours": 431502,
+      "diff": 0.008,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-09T14:56:21+00:00",
+      "official": 428744,
+      "ours": 431554,
+      "diff": 0.007,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-09T19:48:16+00:00",
+      "official": 428808,
+      "ours": 431554,
+      "diff": 0.006,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-10T03:14:23+00:00",
+      "official": 429045,
+      "ours": 431554,
+      "diff": 0.006,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-10T15:33:54+00:00",
+      "official": 429115,
+      "ours": 431554,
+      "diff": 0.006,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-10T18:19:42+00:00",
+      "official": 429135,
+      "ours": 431554,
+      "diff": 0.006,
+      "method": "Infrared Image"
+     },
+     {
+      "t": "2024-08-10T23:38:20+00:00",
+      "official": 429163,
+      "ours": 431554,
+      "diff": 0.006,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-11T18:40:19+00:00",
+      "official": 429199,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-12T00:03:47+00:00",
+      "official": 429220,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-12T01:03:23+00:00",
+      "official": 429249,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-12T16:50:40+00:00",
+      "official": 429261,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-18T23:07:55+00:00",
+      "official": 429388,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-19T21:44:41+00:00",
+      "official": 429313,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-19T22:51:20+00:00",
+      "official": 429456,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-19T23:15:44+00:00",
+      "official": 429401,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-21T01:36:40+00:00",
+      "official": 429460,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-22T00:28:12+00:00",
+      "official": 429460,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-22T01:51:55+00:00",
+      "official": 429464,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-23T21:29:38+00:00",
+      "official": 429464,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-24T01:25:19+00:00",
+      "official": 429560,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-24T17:04:44+00:00",
+      "official": 429560,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     },
+     {
+      "t": "2024-08-24T18:56:40+00:00",
+      "official": 429603,
+      "ours": 431554,
+      "diff": 0.005,
+      "method": "Mixed Methods"
+     }
+    ]
+   },
+   "gate_timing": true,
+   "sanity": {
+    "steps": 32,
+    "hotspots": 11947,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "palisades": {
+   "final_km2": 95.58,
+   "final_acres": 23618,
+   "official_parts": {
+    "Palisades": 23448
+   },
+   "official_gis_acres": 23448,
+   "official_raster_acres": 23617,
+   "raw_satellite_acres": 34369,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.0,
+   "calfire_acres": 23448.0,
+   "detect_minus_arrival_h_median": 9.1,
+   "share_detected_before_arrival": 0.144,
+   "albers_acres": 23449,
+   "extent_ratio": 1.0072,
+   "calfire_published_acres": 23448.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 11,
+    "hotspots": 2100,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "eaton": {
+   "final_km2": 57.16,
+   "final_acres": 14125,
+   "official_parts": {
+    "Eaton": 14021
+   },
+   "official_gis_acres": 14021,
+   "official_raster_acres": 14125,
+   "raw_satellite_acres": 18127,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.036,
+   "calfire_acres": 14021.0,
+   "detect_minus_arrival_h_median": 5.8,
+   "share_detected_before_arrival": 0.222,
+   "albers_acres": 14021,
+   "extent_ratio": 1.0074,
+   "calfire_published_acres": 14021.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 7,
+    "hotspots": 1052,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "monument": {
+   "final_km2": 907.92,
+   "final_acres": 224352,
+   "official_parts": {
+    "Monument": 223172
+   },
+   "official_gis_acres": 223172,
+   "official_raster_acres": 224351,
+   "raw_satellite_acres": 245662,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.002,
+   "calfire_acres": 223124.0,
+   "detect_minus_arrival_h_median": 27.2,
+   "share_detected_before_arrival": 0.061,
+   "viirs_vs_feds_iou_final": 0.998,
+   "viirs_vs_feds_iou_mid": 0.95,
+   "viirs_vs_feds_area_r": 0.999,
+   "feds_minus_viirs_h_shift0": -9.2,
+   "feds_minus_viirs_h_shift12": 2.8,
+   "albers_acres": 223172,
+   "extent_ratio": 1.0053,
+   "calfire_published_acres": 223124.0,
+   "gate_extent_2pct": true,
+   "gate_feds_timing": true,
+   "gate_timing": true,
+   "sanity": {
+    "steps": 96,
+    "hotspots": 37000,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "mosquito": {
+   "final_km2": 312.29,
+   "final_acres": 77168,
+   "official_parts": {
+    "Mosquito": 76771
+   },
+   "official_gis_acres": 76771,
+   "official_raster_acres": 77169,
+   "raw_satellite_acres": 91583,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.002,
+   "calfire_acres": 76788.0,
+   "detect_minus_arrival_h_median": 15.9,
+   "share_detected_before_arrival": 0.038,
+   "albers_acres": 76771,
+   "extent_ratio": 1.0052,
+   "calfire_published_acres": 76788.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 26,
+    "hotspots": 7954,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "york": {
+   "final_km2": 379.09,
+   "final_acres": 93675,
+   "official_parts": {
+    "York": 93078
+   },
+   "official_gis_acres": 93078,
+   "official_raster_acres": 93676,
+   "raw_satellite_acres": 41423,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.604,
+   "calfire_acres": 93078.0,
+   "detect_minus_arrival_h_median": -1.2,
+   "share_detected_before_arrival": 0.671,
+   "albers_acres": 93078,
+   "extent_ratio": 1.0064,
+   "calfire_published_acres": 93078.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 8,
+    "hotspots": 1001,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "bridge": {
+   "final_km2": 223.33,
+   "final_acres": 55186,
+   "official_parts": {
+    "Bridge": 54862
+   },
+   "official_gis_acres": 54862,
+   "official_raster_acres": 55187,
+   "raw_satellite_acres": 71134,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.0,
+   "calfire_acres": 56030.0,
+   "detect_minus_arrival_h_median": 4.0,
+   "share_detected_before_arrival": 0.26,
+   "albers_acres": 54862,
+   "extent_ratio": 1.0059,
+   "calfire_published_acres": 56030.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 88,
+    "hotspots": 3569,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  },
+  "gifford": {
+   "final_km2": 535.61,
+   "final_acres": 132352,
+   "official_parts": {
+    "Gifford": 131614
+   },
+   "official_gis_acres": 131614,
+   "official_raster_acres": 132352,
+   "raw_satellite_acres": 148035,
+   "iou_vs_official": 1.0,
+   "never_flagged_share": 0.008,
+   "calfire_acres": 131612.0,
+   "detect_minus_arrival_h_median": 8.9,
+   "share_detected_before_arrival": 0.064,
+   "albers_acres": 131614,
+   "extent_ratio": 1.0056,
+   "calfire_published_acres": 131612.0,
+   "gate_extent_2pct": true,
+   "sanity": {
+    "steps": 28,
+    "hotspots": 8082,
+    "monotonic_area": true,
+    "weather_covers": true
+   }
+  }
+ },
+ "failures": []
+}
